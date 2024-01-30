@@ -3,6 +3,6 @@ import capitalize from "../src/capitalize.js";
 
 assert.strictEqual(capitalize(''), '');
 
-assert.StrictEqual(capitalize('hello'),'Hello');
+assert.strictEqual(capitalize('hello'),'Hello');
 
 console.log('All tests done!');
