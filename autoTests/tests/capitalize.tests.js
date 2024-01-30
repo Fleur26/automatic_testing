@@ -1,8 +1,8 @@
 import {strict as assert} from  "node:assert";
 import capitalize from "../src/capitalize.js";
 
-assert.equal(capitalize(''), '');
+assert.strictEqual(capitalize(''), '');
 
-assert.equal(capitalize('hello'),'Hello');
+assert.StrictEqual(capitalize('hello'),'Hello');
 
 console.log('All tests done!');
